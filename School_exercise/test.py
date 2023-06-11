@@ -1,1 +1,3 @@
-a,b,c,d = [int(input()) for x in [a
+n = 5
+if 1 < n < 6:
+    print('ok')
