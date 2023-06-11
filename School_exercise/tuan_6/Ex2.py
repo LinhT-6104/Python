@@ -7,6 +7,6 @@ print("{:.2f}".format(round(f,2)))
 # Tinh f(x,y,z)
 try:
     f = x*y*z + x / (y**z)
-    print("{:.2f}".format(round(f,2)))
+    print(f"{f:.2f}")
 except ZeroDivisionError:
     print("N/A")

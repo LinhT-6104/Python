@@ -16,5 +16,5 @@ else:
     gx = 6 - 5*x
     
 # In kq
-print("{:.2f}".format(round(fx,2)))
-print("{:.2f}".format(round(gx,2)))
+print(f"{fx:.2f}")
+print(f"{gx:.2f}")
